@@ -1,0 +1,58 @@
+ 
+ Problema N° 1
+ Cantidad de Pruebas: 5 
+ 
+ Crear un método público "EncontrarPrimo" que reciba un número variable de 
+ parámetros enteros y retorne un entero.
+ El método deberá retornar la posición (base 0) del primer número primo encontrado. 
+ En cualquier otro caso deberá retornar -1
+ 
+ -------------------------------------------------------------------------------------------
+ 
+ Problema N° 2
+ Cantidad de Pruebas: 5
+  
+ Una brecha binaria dentro de un entero positivo N es cualquier secuencia máxima de ceros 
+ consecutivos que está rodeada por unos en ambos extremos en la representación binaria de N.
+ Por ejemplo, el número 9 tiene representación binaria 1001 y contiene un espacio binario de 
+ longitud 2. El número 529 tiene representación binaria 1000010001 y contiene dos espacios 
+ binarios: uno de longitud 4 y uno de longitud 3. El número 20 tiene representación binaria 
+ 10100 y contiene un espacio binario de longitud 1. El número 15 tiene una representación 
+ binaria 1111 y no tiene espacios binarios. El número 32 tiene una representación binaria 
+ de 100000 y no tiene huecos binarios. 
+ 
+ Crear un método público "EncontrarBrechaMaxima" que reciba un entero (N) y devuelva la longitud 
+ de su brecha binaria más larga. El método debe devolver 0 si N no contiene un espacio binario. 
+ Por ejemplo, dado N = 1041, el método debería devolver 5, porque N tiene representación 
+ binaria 10000010001 y, por lo tanto, su espacio binario más largo es de longitud 5. 
+ Dado N = 32, el método debería devolver 0, porque N tiene representación binaria '100000' y, 
+ por lo tanto, sin huecos binarios.
+ 
+ -------------------------------------------------------------------------------------------
+ 
+ Problema N° 3
+ Cantidad de Pruebas: 4
+  
+ Crear un método público "CalcularArea" que reciba 3 parámetros y retorne un resultado (el área).
+ 
+ El primer parámetro es un número y obligatorio.
+ El segúndo también es número pero opcional y nuleable.
+ El tercero es del tipo Enum, opcional y nuleable.
+ 
+ Los dos parámetros numéricos incluyen los valores necesarios para calcular el área.
+ 
+ El método debe calcular el área según la figura recibida en la enumeración y retornar el valor.
+ En cualquier otro caso debe retornar null.
+ 
+ La enumeración con los valores posibles se encuentra en la librería y se llama Figura.
+ 
+ El método no debe generar excepciones y  para los datos numéricos usar un tipo de dato 
+ punto flotante de 128 bits.
+ 
+ Ayuda: Enum es el tipo base que da origen a las enumeraciones. 
+  
+ 
+ ------------------------------------------------------------------------------------------------
+Crear una clase con un método público ContarVocales que reciba una cadena de texto y retorne la cantidad de vocales que contiene. El método debe considerar tanto mayúsculas como minúsculas, y puede utilizar cualquier enfoque para determinar si un carácter es una vocal.
+------------------------------------------------------------------------------------------------------------------------------------------
+Crear una clase con un método público EsAnagrama que reciba dos cadenas de texto y determine si son anagramas. Dos cadenas son anagramas si contienen exactamente las mismas letras en cualquier orden. El método debe ignorar los espacios en blanco y ser insensible a mayúsculas y minúsculas.
